@@ -2,6 +2,12 @@
 // It describes the shape of the data, and what data type each property should accept.
 // For simplicity of teaching, we're manually defining these types.
 // However, these types are generated automatically if you're using an ORM such as Prisma.
+
+/*
+For now, take a look at the /app/lib/definitions.ts file. 
+Here, we manually define the types that will be returned from the database. For example, the invoices table has the following types:
+*/
+
 export type User = {
   id: string;
   name: string;
